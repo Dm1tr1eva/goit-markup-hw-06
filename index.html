@@ -8,28 +8,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
       integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- #region header -->
     <header class="header">
       <div class="container">
-        <a class="logo" href="./index.html">
-          Web
-          <span class="header__accent">Studio</span>
-        </a>
-        <button class="header__button" type="button">
+        <a class="logo" href="./index.html"
+          >Web<span class="header__accent">Studio</span></a
+        >
+        <button class="header__button " type="button">
           <svg class="header__icon" width="24" height="24">
             <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <button class="menu__button-close hidden" type="button">
+          <svg class="modal__icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
       </div>
@@ -99,8 +101,7 @@
                 src="./images/team/mark-guerrero.jpg"
                 alt="Mark Guerrero"
                 width="264"
-                height="260"
-              />
+                height="260" />
               <div class="team__description">
                 <h3 class="team__subtitle">Mark Guerrero</h3>
                 <p class="team__text">Product Designer</p>
@@ -146,8 +147,7 @@
                 src="./images/team/tom-ford.jpg"
                 alt="Tom Ford"
                 width="264"
-                height="260"
-              />
+                height="260" />
               <div class="team__description">
                 <h3 class="team__subtitle">Tom Ford</h3>
                 <p class="team__text">Frontend Developer</p>
@@ -193,8 +193,7 @@
                 src="./images/team/camila-garcia.jpg"
                 alt="Camila Garcia"
                 width="264"
-                height="260"
-              />
+                height="260" />
               <div class="team__description">
                 <h3 class="team__subtitle">Camila Garcia</h3>
                 <p class="team__text">Marketing</p>
@@ -240,8 +239,7 @@
                 src="./images/team/daniel-wilson.jpg"
                 alt="Daniel Wilson"
                 width="264"
-                height="260"
-              />
+                height="260" />
               <div class="team__description">
                 <h3 class="team__subtitle">Daniel Wilson</h3>
                 <p class="team__text">UI Designer</p>
@@ -296,16 +294,14 @@
                     srcset="
                       ./images/portfolio/banking-mobile.jpg    1x,
                       ./images/portfolio/banking-mobile@2x.jpg 2x
-                    "
-                  />
+                    " />
                   <img
                     class="portfolio__image"
                     src="./images/portfolio/banking-mobile.jpg"
                     alt="Banking App"
                     width="288"
                     height="280"
-                    loading="lazy"
-                  />
+                    loading="lazy" />
                 </picture>
                 <p class="portfolio-info__text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -328,16 +324,14 @@
                     srcset="
                       ./images/portfolio/cashless-mobile.jpg    1x,
                       ./images/portfolio/cashless-mobile@2x.jpg 2x
-                    "
-                  />
+                    " />
                   <img
                     class="portfolio__image"
                     src="./images/portfolio/cashless-mobile.jpg"
                     alt="Cashless Payment"
                     width="288"
                     height="280"
-                    loading="lazy"
-                  />
+                    loading="lazy" />
                 </picture>
                 <p class="portfolio-info__text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -360,16 +354,14 @@
                     srcset="
                       ./images/portfolio/meditation-mobile.jpg    1x,
                       ./images/portfolio/meditation-mobile@2x.jpg 2x
-                    "
-                  />
+                    " />
                   <img
                     class="portfolio__image"
                     src="./images/portfolio/meditation-mobile.jpg"
                     alt="Cashless Payment"
                     width="288"
                     height="280"
-                    loading="lazy"
-                  />
+                    loading="lazy" />
                 </picture>
                 <p class="portfolio-info__text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -392,16 +384,14 @@
                     srcset="
                       ./images/portfolio/taxi-mobile.jpg    1x,
                       ./images/portfolio/taxi-mobile@2x.jpg 2x
-                    "
-                  />
+                    " />
                   <img
                     class="portfolio__image"
                     src="./images/portfolio/taxi-mobile.jpg"
                     alt="Cashless Payment"
                     width="288"
                     height="280"
-                    loading="lazy"
-                  />
+                    loading="lazy" />
                 </picture>
                 <p class="portfolio-info__text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -424,16 +414,14 @@
                     srcset="
                       ./images/portfolio/Illustrations-mobile.jpg    1x,
                       ./images/portfolio/Illustrations-mobile@2x.jpg 2x
-                    "
-                  />
+                    " />
                   <img
                     class="portfolio__image"
                     src="./images/portfolio/Illustrations-mobile.jpg"
                     alt="Cashless Payment"
                     width="288"
                     height="280"
-                    loading="lazy"
-                  />
+                    loading="lazy" />
                 </picture>
                 <p class="portfolio-info__text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -456,16 +444,14 @@
                     srcset="
                       ./images/portfolio/courses-mobile.jpg    1x,
                       ./images/portfolio/courses-mobile@2x.jpg 2x
-                    "
-                  />
+                    " />
                   <img
                     class="portfolio__image"
                     src="./images/portfolio/courses-mobile.jpg"
                     alt="Cashless Payment"
                     width="288"
                     height="280"
-                    loading="lazy"
-                  />
+                    loading="lazy" />
                 </picture>
                 <p class="portfolio-info__text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -488,10 +474,9 @@
     <footer class="footer">
       <div class="container">
         <div class="container__info">
-          <a class="logo" href="./index.html">
-            Web
-            <span class="footer__accent">Studio</span>
-          </a>
+          <a class="logo" href="./index.html"
+            >Web<span class="footer__accent">Studio</span></a
+          >
           <p class="footer__text footer__text-white">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
@@ -539,8 +524,7 @@
                 type="email"
                 name="subscribe-email"
                 id="subscribe-email"
-                placeholder="E-mail"
-              />
+                placeholder="E-mail" />
             </label>
             <button class="subscribe__button" type="submit">
               Subscribe
@@ -553,5 +537,154 @@
       </div>
     </footer>
     <!-- #endregion footer -->
+    <!-- #region menu -->
+    <div class="menu">
+      <div class="container">
+        <nav class="menu__navigation">
+          <ul class="menu__list">
+            <li class="menu__item"><a class="menu__link" href="">Studio</a></li>
+            <li class="menu__item">
+              <a class="menu__link" href="">Portfolio</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="menu__contacts">
+          <address class="menu__address">
+            <ul class="address__list">
+              <li class="address__item">
+                <a class="address__link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="address__item">
+                <a class="address__link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="menu__social">
+            <ul class="social__list__icon">
+              <li class="social__item__icon">
+                <a class="sotial__link__icon" href="">
+                  <svg class="sotial__icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="sotial__item__icon">
+                <a class="sotial__link__icon" href="">
+                  <svg class="sotial__icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="sotial__item__icon">
+                <a class="sotial__link__icon" href="">
+                  <svg class="sotial__icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="sotial__item__icon">
+                <a class="sotial__link__icon" href="">
+                  <svg class="sotial__icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion menu -->
+
+    <!-- #region modal -->
+    <div class="modal-overlay">
+      <div class="modal">
+        <button class="modal__button-close" type="button">
+          <svg class="modal__icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal__text">Leave your contacts and we will call you back</p>
+        <form class="modal__form">
+          <div class="modal__form__container">
+            <label class="modal__contact-label" for="user-name"> Name</label>
+            <div class="input__container">
+              <input
+                class="modal__contact-input"
+                type="text"
+                name="user-name"
+                id="user-name" />
+              <svg class="modal__icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-name"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal__form__container">
+            <label class="modal__contact-label" for="phone"> Phone</label>
+            <div class="input__container">
+              <input
+                class="modal__contact-input"
+                type="tel"
+                name="phone"
+                id="phone" />
+              <svg class="modal__icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal__form__container">
+            <label class="modal__contact-label" for="email"> Email</label>
+            <div class="input__container">
+              <input
+                class="modal__contact-input"
+                type="email"
+                name="email"
+                id="email" />
+              <svg class="modal__icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal__comment__container">
+            <label class="modal__contact-label" for="user-comment">
+              Comment
+            </label>
+            <textarea
+              class="modal__contact-comment"
+              name="user-comment"
+              id="user-comment"
+              rows="5"
+              placeholder="Text input"></textarea>
+          </div>
+          <div class="modal__checkbox__container">
+            <input
+              class="checkbox__input visually-hidden"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              id="user-privacy" />
+            <span class="checkbox__custom">
+              <svg class="checkbox__icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+            </span>
+            <label class="checkbox" for="user-privacy">
+              I accept the terms and conditions of the
+              <a href="#" class="checkbox__link">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="send__button" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <!-- #endregion modal -->
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
