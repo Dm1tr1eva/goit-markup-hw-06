@@ -1,0 +1,158 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section {
+  padding: 96px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*--background hero and footer-- */
+
+.hero,
+.footer {
+  background: #2e2f42;
+}
+
+/* --styles title, subtitle, text-- */
+.team__title,
+.portfolio__title,
+.benefits__subtitle {
+  font-size: 36px;
+  text-align: center;
+  color: #2e2f42;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.team__subtitle,
+.portfolio__subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.benefits__text,
+.team__text,
+.portfolio__text,
+.footer__text,
+.media__text,
+.modal__text {
+  font-size: 16px;
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* --styles icon in footer and team-- */
+
+.team__list__icon,
+.media__list,
+.social__list__icon {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team__link__icon,
+.media__link__icon,
+.sotial__link__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team__icon,
+.media__icon,
+.sotial__icon {
+  fill: #f4f4fd;
+}
+
+/* --modal button close-- */
+
+.modal__button-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background-color: #e7e9fc;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__button-close:hover,
+.modal__button-close:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
+.modal__icon-close {
+  fill: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__button-close:hover .modal__icon-close,
+.modal__button-close:focus .modal__icon-close {
+  fill: #ffffff;
+}
