@@ -161,13 +161,17 @@
 
 .modal__checkbox__container {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  gap: 8px;
   margin-bottom: 24px;
 }
 
 .checkbox {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -195,7 +199,6 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  margin-right: 8px;
   fill: transparent;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -247,4 +250,8 @@
     min-height: 584px;
     padding: 72px 24px 24px;
   }
+}
+
+@media (min-width: 1158px){
+
 }

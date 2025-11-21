@@ -76,3 +76,26 @@
     margin: 0 auto 36px auto;
   }
 }
+
+@media (min-width: 1158px) {
+  .hero {
+    padding: calc(188px + 72px) 0 188px 0;
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/hero/people-office-desktop.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .hero {
+      background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url('../images/hero/people-office-desktop@2x.jpg');
+    }
+  }
+
+  .hero__title {
+    margin: 0 auto 48px auto;
+  }
+}

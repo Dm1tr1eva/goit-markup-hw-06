@@ -41,7 +41,12 @@
   }
 
   .team__item {
-width: calc((100% - 24px) / 2);
+    width: calc((100% - 24px) / 2);
+  }
 }
 
+@media (min-width: 1158px) {
+  .team__item {
+    width: calc((100% - 72px) / 4);
+  }
 }

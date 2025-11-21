@@ -21,37 +21,39 @@
     <!-- #region header -->
     <header class="header">
       <div class="container">
-        <a class="logo" href="./index.html"
-          >Web<span class="header__accent">Studio</span></a
-        >
-        <div class="mobile-menu-buttons">
-          <button class="header__button" type="button">
-            <svg class="header__icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-menu"></use>
-            </svg>
-          </button>
-          <button class="menu__button-close hidden" type="button">
-            <svg class="menu__icon-close" width="24" height="24">
-              <use href="./images/icons.svg#icon-close"></use>
-            </svg>
-          </button>
-        </div>
-        <div class="tablet-navigation">
-          <nav class="header__navigation">
-            <ul class="navigation__list">
-              <li class="navigation__item">
-                <a class="navigation__link active" href="./index.html"
-                  >Studio</a
-                >
-              </li>
-              <li class="navigation__item">
-                <a class="navigation__link" href="">Portfolio</a>
-              </li>
-              <li class="navigation__item">
-                <a class="navigation__link" href="">Contacts</a>
-              </li>
-            </ul>
-          </nav>
+        <div class="header__main">
+          <a class="logo" href="./index.html"
+            >Web<span class="header__accent">Studio</span></a
+          >
+          <div class="mobile-menu-buttons">
+            <button class="header__button" type="button">
+              <svg class="header__icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-menu"></use>
+              </svg>
+            </button>
+            <button class="menu__button-close hidden" type="button">
+              <svg class="menu__icon-close" width="24" height="24">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="tablet-navigation">
+            <nav class="header__navigation">
+              <ul class="navigation__list">
+                <li class="navigation__item">
+                  <a class="navigation__link active" href="./index.html"
+                    >Studio</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a class="navigation__link" href="">Portfolio</a>
+                </li>
+                <li class="navigation__item">
+                  <a class="navigation__link" href="">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
         <div class="tablet-address">
           <address class="address">
@@ -90,6 +92,11 @@
           <h2 class="visually-hidden">Benefits</h2>
           <ul class="benefits__list">
             <li class="benefits__item">
+              <div class="benefits__icon">
+                <svg class="benefits-icon__image" width="64" height="64">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="benefits__subtitle">Strategy</h3>
               <p class="benefits__text">
                 Our goal is to identify the business problem to walk away with
@@ -97,6 +104,11 @@
               </p>
             </li>
             <li class="benefits__item">
+              <div class="benefits__icon">
+                <svg class="benefits-icon__image" width="64" height="64">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="benefits__subtitle">Punctuality</h3>
               <p class="benefits__text">
                 Bring the key message to the brand's audience for the best price
@@ -104,6 +116,11 @@
               </p>
             </li>
             <li class="benefits__item">
+              <div class="benefits__icon">
+                <svg class="benefits-icon__image" width="64" height="64">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="benefits__subtitle">Diligence</h3>
               <p class="benefits__text">
                 Research and confirm brands with the strongest digital growth
@@ -111,6 +128,11 @@
               </p>
             </li>
             <li class="benefits__item">
+              <div class="benefits__icon">
+                <svg class="benefits-icon__image" width="64" height="64">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="benefits__subtitle">Technologies</h3>
               <p class="benefits__text">
                 Design practice focused on digital experiences. We bring forth a
@@ -322,7 +344,14 @@
             <li class="portfolio__item">
               <div class="portfolio-item__info">
                 <picture>
-                  <source media="(min-width: 1158px)" />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/banking-desktop.jpg    1x,
+                      ./images/portfolio/banking-desktop@2x.jpg 2x
+                    "
+                    width="360"
+                    height="300" />
                   <source
                     media="(min-width: 768px)"
                     srcset="
@@ -359,7 +388,14 @@
             <li class="portfolio__item">
               <div class="portfolio-item__info">
                 <picture>
-                  <source media="(min-width: 1158px)" />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/cashless-desktop.jpg    1x,
+                      ./images/portfolio/cashless-desktop@2x.jpg 2x
+                    "
+                    width="360"
+                    height="300" />
                   <source
                     media="(min-width: 768px)"
                     srcset="
@@ -396,7 +432,14 @@
             <li class="portfolio__item">
               <div class="portfolio-item__info">
                 <picture>
-                  <source media="(min-width: 1158px)" />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/meditation-desktop.jpg    1x,
+                      ./images/portfolio/meditation-desktop@2x.jpg 2x
+                    "
+                    width="360"
+                    height="300" />
                   <source
                     media="(min-width: 768px)"
                     srcset="
@@ -433,7 +476,14 @@
             <li class="portfolio__item">
               <div class="portfolio-item__info">
                 <picture>
-                  <source media="(min-width: 1158px)" />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/taxi-desktop.jpg    1x,
+                      ./images/portfolio/taxi-desktop@2x.jpg 2x
+                    "
+                    width="360"
+                    height="300" />
                   <source
                     media="(min-width: 768px)"
                     srcset="
@@ -470,7 +520,14 @@
             <li class="portfolio__item">
               <div class="portfolio-item__info">
                 <picture>
-                  <source media="(min-width: 1158px)" />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/Illustrations-desktop.jpg    1x,
+                      ./images/portfolio/Illustrations-desktop@2x.jpg 2x
+                    "
+                    width="360"
+                    height="300" />
                   <source
                     media="(min-width: 768px)"
                     srcset="
@@ -507,7 +564,13 @@
             <li class="portfolio__item">
               <div class="portfolio-item__info">
                 <picture>
-                  <source media="(min-width: 1158px)" />
+                  <source media="(min-width: 1158px)" 
+                  srcset="
+                      ./images/portfolio/courses-desktop.jpg    1x,
+                      ./images/portfolio/courses-desktop@2x.jpg 2x
+                    "
+                    width="360"
+                    height="300" />
                   <source
                     media="(min-width: 768px)"
                     srcset="
@@ -751,7 +814,7 @@
               value="true"
               name="user-privacy"
               id="user-privacy" />
-              <label class="checkbox" for="user-privacy">
+            <label class="checkbox" for="user-privacy">
               <span class="checkbox__custom">
                 <svg class="checkbox__icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
